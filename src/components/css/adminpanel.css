@@ -1,0 +1,70 @@
+.card{
+    width: 15rem;
+    margin-top: 5rem !important;
+}
+.card1{
+    
+    margin-right: 2rem;
+    float: right !important;
+}
+.card2{
+    margin-left: 2rem;
+}
+.card-title{
+    color: black;
+}
+.sidebar{
+    height: 720px;
+    background-color: slategrey;
+    color: snow;
+    width: max-content;
+    float: left;
+    font-size: 30px;
+    
+}
+ul{
+    list-style: none;
+    float: left;
+}
+.sidebar li{
+    margin: 20px 0px;
+}
+.remainsSidebar{
+    color: whitesmoke;
+    display: block;
+    background-color: steelblue;
+    width: max-content;
+    height: 720px;
+    float: right !important;
+}
+
+
+@media screen and (max-width: 600px) {
+    .sidebar {
+        width: min-content;
+        font-size: 18px;
+        float: left;
+    }
+    .remainsSidebar {
+        display: block;
+        width: 100px !important;
+        height: 720px;
+        float: right !important;
+    }
+    .card{
+        width: 8rem;
+        margin-top: 2rem !important;
+    }
+    .card1{
+        
+        margin-right: 2rem;
+        float: right !important;
+    }
+    .card2{
+        margin-left: 2rem;
+    }
+    .card-title{
+        color: black;
+        font-size: 15px;
+    }
+  }
